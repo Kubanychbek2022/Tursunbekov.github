@@ -65,3 +65,27 @@ body {
 .menu-link:hover {
   background-color: var(--light-blue);
 }
+
+.inner {
+  padding: 70px 0;
+}
+
+.intro-inner {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.inner-images {
+  width: 370px;
+  border-radius: 50%;
+}
+
+.inner-text {
+  flex-wrap: wrap;
+  font-family: cursive;
+  font-size: 20px;
+}
+
