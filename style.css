@@ -65,3 +65,86 @@ body {
 .menu-link:hover {
   background-color: var(--light-blue);
 }
+
+.inner {
+  padding: 70px 0;
+}
+
+.intro-inner {
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.inner-images {
+  width: 370px;
+  border-radius: 50%;
+}
+
+.inner-text {
+  flex-wrap: wrap;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+
+
+.contacts {
+  padding: 30px 0;
+  
+}
+
+.contacts a {
+  color: var(--white);
+}
+
+.inner-contacts {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 78px;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 20px;
+}
+
+
+.inner-contacts ul {
+  font-family: cursive;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 46px;
+  text-align: center;
+  color: var(--white);
+}
+
+.education {
+  padding: 75px 0;
+}
+
+.inner-education {
+  padding: 20px 78px;
+  background-color: var(--blue);
+  color: var(--white);
+  text-align: center;
+}
+
+.inner-education {
+  
+  font-size: 20px;
+}
+
+.inner-education p {
+  font-family: cursive;
+}
+
+
+.text-education {
+  padding: 13px 60px;
+  background-color: var(--light-blue);
+  border-radius: 30%;
+}
