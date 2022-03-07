@@ -127,8 +127,24 @@ body {
 }
 
 .inner-education {
-  padding: 0 78px;
+  padding: 20px 78px;
   background-color: var(--blue);
   color: var(--white);
   text-align: center;
+}
+
+.inner-education {
+  
+  font-size: 20px;
+}
+
+.inner-education p {
+  font-family: cursive;
+}
+
+
+.text-education {
+  padding: 13px 60px;
+  background-color: var(--light-blue);
+  border-radius: 30%;
 }
