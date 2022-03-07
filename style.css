@@ -28,43 +28,37 @@ body {
   padding: 0 15px;
 }
 
-.header-navigation a {
+.header a {
   color: var(--white);
-  text-decoration: none;
 }
 
 .header-navigation {
-  display: flex;;
+  display: flex;
   align-items: center;
   background-color: var(--blue);
+  padding: 0 18px;
   margin: 0;
-}
-
-.logo {
-  width: 20%;
 }
 
 .logo img {
-  padding: 10px 0;
-  width: 35%;;
-  object-fit: contain;
+  width: 25%;
+  object-fit: cover;
+  border: 1px solid black;
 }
 
 .menu {
-  width: 70%;
-  padding: 0;
-  margin: 0;
   display: flex;
-  justify-content: center;;
-  gap: 40px;
-  flex-wrap: wrap;
+  justify-content: center;
+  gap: 38px;
+  padding: 25px 15px;
 }
 
+
 .menu-link {
-  padding: 15px 0;
-  font-size: 19px; 
+  padding: 15px 10px;
+  list-style: none;
   text-transform: uppercase;
-  flex-wrap: wrap;
+  text-decoration: none;
   transition: background-color 1s;
 }
 
