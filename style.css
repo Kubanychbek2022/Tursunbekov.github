@@ -159,10 +159,10 @@ body {
 
 .inner-skills {
   background-color: var(--blue);
-  padding: 30px 0;
   color: var(--white);
   flex-wrap: wrap;
   font-size: 20px;
+  font-family: cursive;
 }
 
 .inner-skills ul {
@@ -175,8 +175,37 @@ body {
 
 .text-skills {
   text-align: center;
-  font-size: 35px;
+  font-size: 25px;
   background-color: var(--light-blue);
-  border-radius: 30%;
-  padding: 0 30px;
+  border-radius: 46%;
+}
+
+.languageskills {
+  padding: 40px 0;
+}
+
+.inner-languageskills {
+  padding: 39px 0;
+  background-color: var(--blue);
+  color: var(--white);
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  font-family: cursive;
+}
+
+.inner-languageskills ul {
+  list-style: none; 
+  font-size: 25px; 
+}
+
+.text-language {
+  text-align: center;
+  font-size: 20px;
+  font-family: cursive;
+  border: 1px solid black;
+  margin: 30px 30px;
+  padding: 28px 100px;
+  border-radius: 46%;
+  background-color: var(--light-blue);
 }
