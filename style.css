@@ -243,3 +243,46 @@ body {
   text-align: center;
   font-size: 25px;
 }
+
+.portfolio {
+  padding-top: 38px;
+}
+
+.portfolio-text {
+  background-color: var(--blue);
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 28px;
+  font-size: 40px;
+  color: var(--white);
+}
+
+
+.portfolio ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 65px;
+}
+
+.portfolio a, h3 {
+  font-size: 30px;
+  padding: 35px;
+  transition: all 1s;
+  text-decoration: none;
+}
+
+.portfolio a:hover {
+  padding-bottom: 15px;
+  background-color: var(--light-blue);
+
+}
+
+.portfolio img {
+  width: 100%;
+  object-fit: contain;
+  
+
+}
