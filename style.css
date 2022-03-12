@@ -243,3 +243,26 @@ body {
   text-align: center;
   font-size: 25px;
 }
+
+.inner-portfolio {
+  padding: 50px 15px;
+  background-color: var(--blue);
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+}
+
+.inner-portfolio ul {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  margin: 0;
+  
+}
+
+.inner-portfolio img {
+  margin: 0;
+}
+
+.text-portfolio {
+  font-size: 30px;
+  text-align: center;
+}
