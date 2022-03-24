@@ -121,6 +121,7 @@ body {
 
 
 .inner-contacts ul {
+  flex-wrap: wrap;
   font-family: cursive;
   list-style: none;
   display: flex;
@@ -294,4 +295,123 @@ body {
   width: 100%;
   object-fit: contain;
 }
+
+@media (min-width: 1126px) {
+  .button {
+    display: none;
+  }
+}
+
+@media (max-width: 1126px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  body {
+    justify-content: center;
+  }
+
+  .button {
+    display: none;
+  }
+}
+
+@media (max-width: 1114px) {
+  .container {
+    max-width: 850px;
+  }
+
+  .logo img {
+    width: 50%;
+  }
+
+  .inner-contacts ul {
+    font-size: 25px;
+
+  }
+
+  .inner-contacts h3 {
+    font-size: 25px;
+  }
+
+  .header {
+    padding-right: 60px;
+  }
+
+  .inner {
+    padding-right: 60px;
+  }
+
+  .contacts {
+    padding-right: 60px;
+  }
+
+  .education {
+    padding-right: 60px;
+  }
+
+  .skills {
+    padding-right: 60px;
+  }
+
+  .languageskills {
+    padding-right: 60px;
+  }
+  
+  .code {
+    padding-right: 60px;
+  }
+
+  .portfolio {
+    padding-right: 60px;
+  }
+
+  .footer {
+    padding-right: 60px;
+  }
+
+
+
+}
+
+@media (max-width: 901px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .logo img {
+    width: 30%;
+    padding: 10px 0;
+    border: none;
+  }
+
+  .button {
+    position: relative;
+    padding-left: 450px;
+    display: inline-block;
+    background-color: var(--blue);
+  }
+
+  .button svg {
+    
+    
+  }
+
+  .header-navigation ul {
+    top: 65px;
+    right: 120px;
+    position: absolute;
+    flex-direction: column;
+    background-color: var(--black);
+    list-style: none;
+    display: none;
+  }
+
+  .header-navigation ul 
+
+  .inner-contacts h3 {
+    font-size: 21px;
+  }
+}
+
 
