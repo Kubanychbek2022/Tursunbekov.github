@@ -296,6 +296,12 @@ body {
   object-fit: contain;
 }
 
+@media (max-width: 1442px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
 @media (min-width: 1126px) {
   .button {
     display: none;
@@ -315,6 +321,7 @@ body {
     display: none;
   }
 }
+
 
 @media (max-width: 1114px) {
   .container {
@@ -409,9 +416,78 @@ body {
 
   .header-navigation ul 
 
+  .inner-contacts {
+    flex-direction: column;
+  }
+
+  .inner-contacts ul {
+    flex-direction: column;
+  }
+
   .inner-contacts h3 {
-    font-size: 21px;
+    font-size: 22px;
   }
 }
 
+@media (max-width: 817px) {
+  .container {
+    max-width: 755px;
+  }
+}
+
+
+@media (max-width: 755px) {
+  .container {
+    max-width: 645px;
+  }
+
+  .intro-inner {
+    flex-direction: column;
+  }
+
+
+
+  .intro-inner img {
+    width: 58%;
+  }
+
+
+  .intro-inner h1 {
+    width: 30px;
+  }
+
+
+
+  inner-text {
+     width: 100%;
+  }
+
+  .inner-contacts {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .inner-contacts h3 {
+    font-size: 35px;
+  }
+
+  .inner-contacts li {
+    font-size: 30px;
+  }
+
+
+  .portfolio  ul  {
+    flex-direction: column;
+    display: table-row;
+  }
+
+
+
+}
+
+@media (max-width: 640px;) {
+  .container {
+    max-width: 550px;
+  }
+}
 
